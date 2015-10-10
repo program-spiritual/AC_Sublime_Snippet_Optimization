@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+api.addEventListener({
+    name:'scrolltobottom',
+    extra:{
+        threshold:0            //设置距离底部多少距离时触发，默认值为0，数字类型
+    }
+},function(ret,err){
+    //operation
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ae-scrolltobottom</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Window或者Frame页面滑动到底部事件</description>
+</snippet>

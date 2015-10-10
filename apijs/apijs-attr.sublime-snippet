@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$api.attr(${1:el}, ${2:name}, ${3:value});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>apijs-attr</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>获取或设置DOM元素的属性</description>
+</snippet>
